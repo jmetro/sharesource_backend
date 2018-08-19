@@ -1,11 +1,3 @@
-# sharesource
-
-> sharesource web app
-
-## About
-
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
-
 ## Getting Started
 
 1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
@@ -24,6 +16,16 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
 ## Testing
 
 Simply run `npm mocha` and all your tests in the `test/` directory will be run.
+
+# sharesource
+
+> sharesource web app
+
+## About
+
+This project uses: 
+> [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+> [Axios](https://github.com/axios/axios). Promise based HTTP client for the browser and node.js
 
 ## Scaffolding
 
