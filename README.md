@@ -23,7 +23,7 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
 
 ## Testing
 
-Simply run `npm test` and all your tests in the `test/` directory will be run.
+Simply run `npm mocha` and all your tests in the `test/` directory will be run.
 
 ## Scaffolding
 
