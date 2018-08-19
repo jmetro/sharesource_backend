@@ -8,13 +8,13 @@ describe('\'search_medication_hook\' hook', () => {
   beforeEach(() => {
     app = feathers();
 
-    app.use('/dummy', {
+    app.use('/search_medication', {
       async get(id) {
         return { id };
       }
     });
 
-    app.service('dummy').hooks({
+    app.service('search_medication').hooks({
       before: searchMedicationHook()
     });
   });

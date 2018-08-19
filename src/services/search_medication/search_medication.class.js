@@ -23,7 +23,7 @@ class Service {
       list = await axios({
         method: 'GET',
         headers: {'Authorization': `Bearer ${token.data}`},
-        url: `https://api-dev.cardihab.app/v1/medications/search?count=100&term=CORDARONE`
+        url: 'https://api-dev.cardihab.app/v1/medications/search?count=100&term=CORDARONE'
       });
     } catch (e) {
       throw new errors.NotFound(e.message, {medication_list});
